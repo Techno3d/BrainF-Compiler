@@ -1,4 +1,3 @@
-use std::io;
 use std::env;
 use std::process;
 use std::fs;
@@ -31,7 +30,7 @@ fn main() {
 
     let generated_code = generate_c(&tokens);
     file.push_str(".c");
-    fs::write(file, generated_code);
+    fs::write(file, generated_code).expect("Lmao");
     
     
 }
