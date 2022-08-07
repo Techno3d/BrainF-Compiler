@@ -1,5 +1,5 @@
 [package]
-name = "brainf_compiler"
+name = "brainf_transpiler"
 version = "0.1.0"
 edition = "2021"
 
